@@ -1,0 +1,22 @@
+{
+  "name": "troy_fasnacht_constructors",
+  "version": "1.0.0",
+  "description": "Week 11 Constructor homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austxgolfer/Troy_Fasnacht_Constructors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Austxgolfer/Troy_Fasnacht_Constructors/issues"
+  },
+  "homepage": "https://github.com/Austxgolfer/Troy_Fasnacht_Constructors#readme",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  }
+}
