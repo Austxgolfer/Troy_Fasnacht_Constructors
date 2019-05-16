@@ -1,10 +1,10 @@
 
 
 //letter constructor
-var Letter= function(strVal,guessBool) {
-    strng = strVal,
-    Guessed = guessBool,
-    PlacHold = "_"
+var Letter = function(strVal,guessBool) {
+    this.strng = strVal,
+    this.Guessed = guessBool,
+    this.PlacHold = "_"
 }
 //function to send character or underline based if letter had been selected
 Letter.prototype.isChar = function() {
@@ -18,8 +18,18 @@ Letter.prototype.isChar = function() {
 Letter.prototype.rtrnChar = function(guess) {
     if (this.strng === guess) {
         this.Guessed = true;
-        isChar();
+        this.isChar();
     } else {this.Guessed = false;
-        isChar();
+        this.isChar();
     };
 };
+
+var word1 = new Letter("b",false);
+var word2 = new Letter("i",false);
+var word3 = new Letter("g",true);
+
+
+word1.isChar();
+
+word1.rtrnChar("b");
+
