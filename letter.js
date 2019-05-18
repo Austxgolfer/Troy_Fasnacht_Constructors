@@ -24,8 +24,6 @@ Letter.prototype.rtrnChar = function(guess) {
     if (this.strng === guess) {
         this.Guessed = true;
         this.isChar();
-    } else {this.Guessed = false;
-        this.isChar();
     };
 };
 
